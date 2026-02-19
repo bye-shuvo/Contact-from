@@ -12,3 +12,5 @@ const router = createBrowserRouter([
         element : <EmployeeValidationForm />
     }
 ])
+
+export default router ;
