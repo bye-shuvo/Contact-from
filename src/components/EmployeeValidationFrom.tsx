@@ -73,7 +73,8 @@ function EmployeeValidationForm() {
   }, [nameValidation, emailValidation, employeeIdValidation, joiningDateValidation]);
 
   return (
-    <div className="layout-column align-items-center mt-20 ">
+    <div className="App layout-column align-items-center mt-20 ">
+      <h1>Employee From</h1>
       <form onSubmit={handleSubmit}>
         <div className="layout-column align-items-start mb-10 w-50" data-testid="input-name">
           <input
